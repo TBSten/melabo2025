@@ -1,0 +1,14 @@
+site:
+  title: "MeLABO 2025"
+
+server:
+  files:
+    dev:
+      contentRoot: "build/processedResources/js/main/public"
+      script: "build/kotlin-webpack/js/developmentExecutable/melabl2025.js"
+      api: "build/libs/melabl2025.jar"
+    prod:
+      script: "build/kotlin-webpack/js/productionExecutable/melabl2025.js"
+      siteRoot: ".kobweb/site"
+
+  port: 8080
