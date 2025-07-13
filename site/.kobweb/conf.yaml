@@ -1,5 +1,6 @@
 site:
   title: "MeLABO 2025"
+  basePath: "melabo2025/"
 
 server:
   files:
