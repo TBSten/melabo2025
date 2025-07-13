@@ -19,12 +19,12 @@ kobweb {
             head.add {
                 meta("og:title", content = "MeLABO 2025")
                 meta("og:description", content = "BOW")
-                meta("og:image", "https://tbsten.github.io/melabo2025/ogp.png")
+                meta("og:image", content = "https://tbsten.github.io/melabo2025/ogp-2.png")
                 meta("og:type", content = "website")
                 meta("og:site_name", content = "MeLABO 2025")
                 meta("twitter:card", content = "summary_large_image")
                 meta("twitter:site", content = "@tsuba__zutomaro")
-                meta("twitter:image", content = "https://tbsten.github.io/melabo2025/ogp.png")
+                meta("twitter:image", content = "https://tbsten.github.io/melabo2025/ogp-2.png")
             }
         }
     }
