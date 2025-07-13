@@ -1,4 +1,5 @@
 import com.varabyte.kobweb.gradle.application.util.configAsKobwebApplication
+import kotlinx.html.meta
 
 plugins {
     alias(libs.plugins.kotlin.multiplatform)
@@ -13,7 +14,18 @@ version = "1.0-SNAPSHOT"
 kobweb {
     app {
         index {
-            description.set("Powered by Kobweb")
+            lang = "ja"
+            description.set("BOW")
+            head.add {
+                meta("og:title", content = "MeLABO 2025")
+                meta("og:description", content = "BOW")
+                meta("og:image", "https://tbsten.github.io/melabo2025/ogp.png")
+                meta("og:type", content = "website")
+                meta("og:site_name", content = "MeLABO 2025")
+                meta("twitter:card", content = "summary_large_image")
+                meta("twitter:site", content = "@tsuba__zutomaro")
+                meta("twitter:image", content = "https://tbsten.github.io/melabo2025/ogp.png")
+            }
         }
     }
 }
